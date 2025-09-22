@@ -1,0 +1,88 @@
+extends: default-sans-with-font-fallbacks
+
+    
+title:
+  page:
+    align: center
+    logo:
+      image: image:images/bitctrl_logo.png[]
+      align: center
+      top: 10%[pdfwidth=25%]
+    title:
+      font_size: 24
+      font_style: bold
+      margin_top: 150
+    subtitle:
+      font_color: #666666
+      font_size: 18
+      font_style: bold
+      margin_top: 12
+    revision:
+      font_color: #555555
+      delimiter: ', '
+      margin_top: 20
+    authors:
+      font_color: #444444
+      
+page:
+  layout: portrait
+  margin: [3cm, 2cm, 4cm, 2cm]
+  margin_inner: 30mm
+  margin_outer: 30mm
+  size: A4
+base:
+  line_height: $base_line_height_length / $base_font_size
+# vertical_rhythm: $base_line_height_length
+heading:
+  font_color: #000000
+  font_size: 17
+  font_style: bold
+  line_height: 1.2
+#  margin_bottom: $vertical_rhythm
+#  margin_top: $vertical_rhythm
+link:
+  font_color: #009900
+list:
+  indent: $base_font_size * 1.5
+header:
+  line_height: 1
+  border_color: dddddd
+  border_width: 0.25
+  height: $base_line_height_length * 2.5
+#  padding: [0, 1, $base_line_height_length / 2, 1]
+  valign: bottom
+  recto_content:
+    right:
+      '{appname}'
+    left:
+      '{revdate}' 
+  verso_content:
+    right:
+      '{appname}'
+    left:
+      '{revdate}' 
+footer:
+  line_height: 1
+  border_color: dddddd
+  border_width: 0.25
+  height: $base_line_height_length * 2.5
+#  padding: [$base_line_height_length / 2, 1, 0, 1]
+  valign: top
+  recto_content:
+    left: '(C) BitCtrl Systems GmbH'
+    right: 'Seite {page-number} von {page-count}'
+  verso_content:
+    left: '(C) BitCtrl Systems GmbH'
+    right: 'Seite {page-number} von {page-count}'
+image:
+   align: center
+   padding: 20
+caption:
+   align: center
+   font_color: #000000
+   font_size: 10
+sidebar:
+  align: center
+  padding: [0, 2cm, 0, 2cm]
+  font_size: 10
+  background_color: #fefefe
