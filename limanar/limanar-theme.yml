@@ -55,14 +55,14 @@ header:
     right:
       '{appname}'
     center: |
-     GF Casting Solutions Leipzig
+     Limanar Leipzig
     left:
       '{revdate}' 
   verso_content:
     right:
       '{appname}'
     center: |
-     GF Casting Solutions Leipzig
+     Limanar Leipzig
     left:
       '{revdate}' 
 footer:
