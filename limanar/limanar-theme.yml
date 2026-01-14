@@ -7,7 +7,7 @@ title:
     logo:
       image: image:images/bitctrl_logo.png[]
       align: center
-      top: 10%[pdfwidth=25%]
+      top: 5%[pdfwidth=25%]
     title:
       font_size: 24
       font_style: bold
@@ -20,7 +20,7 @@ title:
     revision:
       font_color: #555555
       delimiter: ', '
-      margin_top: 20
+      margin_top: 10
     authors:
       font_color: #444444
       
